@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/businesses/:id",
+      "path": "/businesses/:slug",
       "handler": "business.findOne",
       "config": {
         "policies": []

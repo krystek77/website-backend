@@ -12,7 +12,8 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Description": {
       "type": "richtext"
@@ -29,9 +30,8 @@
       "required": false
     },
     "slug": {
-      "type": "string",
-      "required": true,
-      "unique": true
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
