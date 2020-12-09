@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_description_paragraphs",
+  "info": {
+    "name": "paragraph",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

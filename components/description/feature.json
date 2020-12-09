@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_description_features",
+  "info": {
+    "name": "feature",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "whole_feature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description.image-description"
+    }
+  }
+}

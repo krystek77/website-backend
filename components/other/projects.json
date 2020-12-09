@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_other_projects",
+  "info": {
+    "name": "projects",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "needs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "other.pair"
+    },
+    "washers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "other.pair"
+    },
+    "dryers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "other.pair"
+    },
+    "ironers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "other.pair"
+    }
+  }
+}

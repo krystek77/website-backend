@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_other_pairs",
+  "info": {
+    "name": "pair",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

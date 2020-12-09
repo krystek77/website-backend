@@ -32,6 +32,17 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "richtext"
+    },
+    "laundryprojects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "other.projects"
     }
   }
 }

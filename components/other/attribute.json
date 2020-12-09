@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_other_attributes",
+  "info": {
+    "name": "attribute",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}
